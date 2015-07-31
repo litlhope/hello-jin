@@ -14,10 +14,19 @@ model {
 		}
 	}
 
+	android.ndk {
+		moduleName = "hello-jni"
+	}
+
 	android.buildTypes {
 		release {
 			isMinifyEnabled = false
 			proguardFiles += file('proguard-rules.pro')
+		}
+
+		debug {
+			isJniDebuggable = true
+			isDebuggable = true
 		}
 	}
 }
