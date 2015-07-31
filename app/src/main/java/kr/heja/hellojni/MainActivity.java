@@ -6,6 +6,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
+	static {
+		System.loadLibrary("hello-jni");
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
