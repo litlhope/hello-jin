@@ -5,3 +5,7 @@ Android Studio 1.3에 NDK 디버그 기능이 추가되었습니다.
 
 revision의 comment를 설명하는 형태로 작성해 보았습니다.
 누군가에겐 도움이 되길.... ^^ㅋ
+
+한줄씩 따라하는게 귀찮으신분은 아래 URL을 참조해 주세요.
+
+http://tools.android.com/tech-docs/new-build-system/gradle-experimental
